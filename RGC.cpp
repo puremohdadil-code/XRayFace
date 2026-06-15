@@ -4,9 +4,9 @@ DWORD WINAPI MainThread(LPVOID)
 {
     while (true)
     {
-        if (GetAsyncKeyState(VK_F6) & 1)
+     if (GetAsyncKeyState(VK_F6) & 1)
         {
-            MessageBoxA(0, "C++ Mod Loaded!", "GTA IV", MB_OK);
+         MessageBoxA(0, "C++ Mod Loaded!", "GTA IV", MB_OK);
         }
         Sleep(100);
     }
