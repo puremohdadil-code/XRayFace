@@ -1,7 +1,7 @@
 #include <windows.h>
-
+ 
 DWORD WINAPI MainThread(LPVOID)
-{
+{ 
     while (true)
     {
      if (GetAsyncKeyState(VK_F6) & 1)
