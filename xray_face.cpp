@@ -89,11 +89,11 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
                 float wave1 = sin(t + grid[i][j - 1].y * 8) * 12;
                 float wave2 = sin(t + grid[i][j].y * 8) * 12;
 
-                int x1 = 400 + grid[i][j - 1].x * 360 + wave1;
-                int y1 = 400 + grid[i][j - 1].y * 300;
+                int x1 = 399 + grid[i][j - 1].x * 360 + wave1;
+                int y1 = 399 + grid[i][j - 1].y * 300;
 
-                int x2 = 400 + grid[i][j].x * 360 + wave2;
-                int y2 = 400 + grid[i][j].y * 300;
+                int x2 = 399 + grid[i][j].x * 360 + wave2;
+                int y2 = 399 + grid[i][j].y * 300;
 
                 MoveToEx(hdc, x1, y1, NULL);
                 LineTo(hdc, x2, y2);
