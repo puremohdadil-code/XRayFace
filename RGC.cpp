@@ -2,7 +2,7 @@
  
 DWORD WINAPI MainThread(LPVOID)
 { 
-    while (true)
+    while (true) 
     { 
      if (GetAsyncKeyState(VK_F6) & 1)
         {
