@@ -8,7 +8,7 @@ DWORD WINAPI MainThread(LPVOID)
         {
          MessageBoxA(0, "C++ Mod Loaded!", "GTA IV", MB_OK);
         }
-        Sleep(100);
+        Sleep(100); 
     }
     return 0;
 }
