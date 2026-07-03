@@ -7,7 +7,7 @@
 struct Point {
     float x, y;
 };
-
+ 
 Point grid[ROWS][COLS];
 bool mask[ROWS][COLS];
 
