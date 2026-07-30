@@ -1,5 +1,5 @@
 #include <windows.h>
-#include <cmath>
+#include <cmath> 
 
 #define ROWS 60
 #define COLS 60
