@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <cmath> 
 
-#define ROWS 60 
+#define ROWS 60  
 #define COLS 60
 
 struct Point {
