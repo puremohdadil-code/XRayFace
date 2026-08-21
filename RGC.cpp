@@ -1,5 +1,5 @@
 #include <windows.h>
- 
+  
 DWORD WINAPI MainThread(LPVOID)
 { 
     while (true) 
