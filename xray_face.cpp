@@ -3,7 +3,7 @@
 
 #define ROWS 60  
 #define COLS 60
- 
+  
 struct Point {
     float x, y;
 };
